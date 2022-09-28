@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  var appTitle = Text('我的第一個Flutter App'),
+  const appTitle = Text('我的第一個Flutter App'),
       hiFlutter = Text(
         "Hi, Flutter.\n今天是220928" ,
         style: TextStyle(
@@ -11,7 +11,9 @@ void main() {
           decoration:TextDecoration.underline,
         ),
       );
+
   var img = Image.network("https://i.epochtimes.com/assets/uploads/2021/08/id13156667-shutterstock_376153318-600x400.jpg");
+
   var appBody = Center(
 
     // child: img,
